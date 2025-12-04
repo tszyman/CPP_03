@@ -1,11 +1,11 @@
-NAME    = bsp
+NAME    = ct
 
 CC      = c++
 CFLAGS  = -Wall -Wextra -Werror -std=c++98
 
 SRCS    = main.cpp\
 			ClapTrap.cpp\
-			
+
 OBJS    = $(SRCS:.cpp=.o)
 
 .PHONY: all clean fclean re
